@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8" />
+  <meta
+    name="viewport"
+    content="width=device-width, initial-scale=1.0, viewport-fit=cover"
+  />
+  <title>Черная дыра</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <main class="hero" id="hero">
+    <div class="hero-bg">
+      <img src="фон1.svg" alt="" class="hero-bg-image" />
+    </div>
+
+    <div class="hero-overlay"></div>
+
+    <div class="hero-counter">
+      *ЗАСОСАЛО <span id="counterValue">0</span> АСТРОНАВТОВ*
+    </div>
+
+    <div class="hero-back-text">
+      <span>HSE ART AND SCHOOL</span>
+    </div>
+
+    <div class="center-stage">
+      <div class="black-hole-wrap">
+        <div class="black-hole" id="blackHole">
+          <div class="black-hole-ring"></div>
+          <div class="black-hole-core"></div>
+          <div class="black-hole-glow"></div>
+        </div>
+      </div>
+    </div>
+
+    <div class="hole-word" id="holeWord">ДЫРАА</div>
+
+    <div class="hero-description">
+      Чёрные дыры — одни из самых загадочных объектов во Вселенной, они
+      образуются, когда очень массивная звезда исчерпывает своё топливо и её
+      ядро коллапсирует под действием собственной гравитации.
+    </div>
+
+    <div class="astronaut-layer" id="astronautLayer"></div>
+  </main>
+
+  <audio id="bgSound" src="system.mp3" preload="auto" loop></audio>
+
+  <script src="script.js"></script>
+</body>
+</html>
