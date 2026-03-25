@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8" />
+  <meta
+    name="viewport"
+    content="width=device-width, initial-scale=1.0, viewport-fit=cover"
+  />
+  <title>Черная дыра</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <main class="hero" id="hero">
+    <div class="hero-bg">
+      <img src="фон1.svg" alt="" class="hero-bg-image" />
+    </div>
+
+    <div class="hero-overlay"></div>
+
+    <div class="hero-counter">
+      *ЗАСОСАЛО <span id="counterValue">0</span> АСТРОНАВТОВ*
+    </div>
+
+    <div class="hero-back-text">
+      <span>HSE ART AND DESIGN SCHOOL</span>
+    </div>
+
+    <div class="center-stage">
+      <div class="black-hole-wrap">
+        <div class="black-hole" id="blackHole">
+          <div class="black-hole-ring"></div>
+          <div class="black-hole-core"></div>
+          <div class="black-hole-glow"></div>
+        </div>
+      </div>
+    </div>
+
+    <div class="hole-word" id="holeWord">ДЫРАА</div>
+
+    <div class="hero-description">
+      Чёрные дыры — одни из самых загадочных объектов во Вселенной, они
+      образуются, когда очень массивная звезда исчерпывает своё топливо и её
+      ядро коллапсирует под действием собственной гравитации.
+    </div>
+
+    <div class="astronaut-layer" id="astronautLayer"></div>
+  </main>
+
+  <section class="astro-screen" id="astroScreen">
+    <div class="astro-screen-bg">
+      <img src="фон1.svg" alt="" class="astro-screen-bg-image" />
+    </div>
+
+    <div class="astro-screen-overlay"></div>
+
+    <div class="astro-word astro-word-1">АСТРО</div>
+    <div class="astro-word astro-word-2">АСТРО</div>
+    <div class="astro-word astro-word-3">АСТРО</div>
+    <div class="astro-word astro-word-4">АСТРО</div>
+    <div class="astro-word astro-word-5">АСТРО</div>
+    <div class="astro-word astro-word-6">АСТРО</div>
+
+    <div class="balloons-layer" id="balloonsLayer"></div>
+  </section>
+
+  <section class="space-message-screen" id="spaceMessageScreen">
+    <div class="space-message-top">
+      <img src="up.svg" alt="" class="space-message-top-image" />
+    </div>
+
+    <div class="space-message-center">
+      <h2 class="space-message-title">
+        <span>КОСМОС</span>
+        <span>БОЛЬШЕ</span>
+        <span>НЕ ДАЛЕКО</span>
+      </h2>
+    </div>
+
+    <div class="space-message-bottom">
+      <img src="down.svg" alt="" class="space-message-bottom-image" />
+    </div>
+  </section>
+
+  <section class="spiral-screen" id="spiralScreen">
+    <div class="spiral-screen-bg">
+      <img src="фон1.svg" alt="" class="spiral-screen-bg-image" />
+    </div>
+
+    <div class="spiral-screen-overlay"></div>
+
+    <div class="spiral-stage" id="spiralStage">
+      <img src="spiral.svg" alt="" class="spiral-image" id="spiralImage" />
+    </div>
+  </section>
+
+  <audio id="bgSound" src="system.mp3" preload="auto" loop></audio>
+
+  <script src="script.js"></script>
+</body>
+</html>
